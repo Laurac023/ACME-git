@@ -1,9 +1,0 @@
-C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.csprojAssemblyReference.cache
-C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.AssemblyInfoInputs.cache
-C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.AssemblyInfo.cs
-C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.csproj.CoreCompileInputs.cache
-C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Dominio\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.deps.json
-C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Dominio\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.dll
-C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Dominio\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.pdb
-C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.dll
-C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.pdb

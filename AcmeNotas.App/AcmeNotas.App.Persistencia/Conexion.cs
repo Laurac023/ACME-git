@@ -3,7 +3,7 @@ using AcmeNotas.App.Dominio;
 namespace AcmeNotas.App.Persistencia
 
 {
-   public class AppContext : DbContext
+   public class Conexion : DbContext
 {
     public DbSet<Persona> Personas {get; set;}
     public DbSet<Administrador> Administradores {get;set;}

@@ -5,8 +5,8 @@ namespace AcmeNotas.App.Persistencia
 {
    public class RepositorioMunicipio : IRepositorioMunicipio
    {
-        private readonly AppContext _appContext;
-        public RepositorioMunicipio (AppContext appContext)
+        private readonly Conexion _appContext;
+        public RepositorioMunicipio (Conexion appContext)
         {
             _appContext = appContext;
         }

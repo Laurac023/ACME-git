@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AcmeNotas.App.Persistencia.Migrations
 {
-    [DbContext(typeof(AppContext))]
+    [DbContext(typeof(Conexion))]
     [Migration("20210928185507_generarbase")]
     partial class generarbase
     {

@@ -5,8 +5,8 @@ namespace AcmeNotas.App.Persistencia
 {
     public class RepositorioNota : IRepositorioNota
     {
-        private readonly AppContext _appContext;
-        public RepositorioNota (AppContext appContext)
+        private readonly Conexion _appContext;
+        public RepositorioNota (Conexion appContext)
         {
             _appContext = appContext;
         }

@@ -6,8 +6,8 @@ namespace AcmeNotas.App.Persistencia
     public class RepositorioAdministrador : IRepositorioAdministrador
 
     {
-        private readonly AppContext _appContext;
-        public RepositorioAdministrador(AppContext appContext)
+        private readonly Conexion _appContext;
+        public RepositorioAdministrador(Conexion appContext)
         {
             _appContext = appContext;
         }

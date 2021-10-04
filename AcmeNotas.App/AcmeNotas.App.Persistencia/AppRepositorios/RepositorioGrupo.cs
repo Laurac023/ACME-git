@@ -5,9 +5,9 @@ namespace AcmeNotas.App.Persistencia
 {
     public class RepositorioGrupo : IRepositorioGrupo
     {
-        private readonly AppContext _appContext;
+        private readonly Conexion _appContext;
 
-        public RepositorioGrupo(AppContext appContext)
+        public RepositorioGrupo(Conexion appContext)
         {
             _appContext = appContext;
         }

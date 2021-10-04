@@ -35,3 +35,12 @@ C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Ac
 C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.pdb
 C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.genruntimeconfig.cache
 C:\AcmeNotas\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.csproj.CopyComplete
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.csprojAssemblyReference.cache
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.AssemblyInfoInputs.cache
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.AssemblyInfo.cs
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.csproj.CoreCompileInputs.cache
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.MvcApplicationPartsAssemblyInfo.cache
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.RazorAssemblyInfo.cache
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.RazorAssemblyInfo.cs
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.dll
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.pdb

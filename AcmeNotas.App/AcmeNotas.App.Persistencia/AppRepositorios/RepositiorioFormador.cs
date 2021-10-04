@@ -6,8 +6,8 @@ namespace AcmeNotas.App.Persistencia
 {
      public class RepositorioFormador : IRepositorioFormador
      {
-         private readonly AppContext _appContext;
-         public RepositorioFormador (AppContext appContext)
+         private readonly Conexion _appContext;
+         public RepositorioFormador (Conexion appContext)
          {
              _appContext = appContext;
          }

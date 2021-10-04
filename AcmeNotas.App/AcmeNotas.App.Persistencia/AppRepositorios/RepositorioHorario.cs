@@ -5,8 +5,8 @@ namespace AcmeNotas.App.Persistencia
 {
     public class RepositorioHorario : IRepositorioHorario    
     {
-        private readonly AppContext _appContext;
-        public RepositorioHorario(AppContext appContext )
+        private readonly Conexion _appContext;
+        public RepositorioHorario(Conexion appContext )
         {
               _appContext = appContext;
         }      

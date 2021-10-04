@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using AcmeNotas.App.Persistencia;
 
 namespace AcmeNotas.App.Presentacion
 {
@@ -24,6 +25,7 @@ namespace AcmeNotas.App.Presentacion
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddDbContext<Conexion>();
            // services.AddSingleton();
 
         }

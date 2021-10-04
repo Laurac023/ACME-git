@@ -8,19 +8,19 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Juan Pablo Ramirez\\.nuget\\packages\\": {}
+    "C:\\Users\\Juan Pablo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AcmeNotas\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
+      "projectUniqueName": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
       "projectName": "AcmeNotas.App.Dominio",
-      "projectPath": "C:\\AcmeNotas\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Juan Pablo Ramirez\\.nuget\\packages\\",
-      "outputPath": "C:\\AcmeNotas\\AcmeNotas.App\\AcmeNotas.App.Dominio\\obj\\",
+      "projectPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Juan Pablo\\.nuget\\packages\\",
+      "outputPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Juan Pablo Ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Juan Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"

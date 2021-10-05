@@ -8605,11 +8605,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
+      "projectUniqueName": "C:\\MinTic\\ProyectoMintic-main\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
       "projectName": "AcmeNotas.App.Presentacion",
-      "projectPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
+      "projectPath": "C:\\MinTic\\ProyectoMintic-main\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
       "packagesPath": "C:\\Users\\Juan Pablo\\.nuget\\packages\\",
-      "outputPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\obj\\",
+      "outputPath": "C:\\MinTic\\ProyectoMintic-main\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Juan Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8623,11 +8623,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
-              "projectPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj"
+            "C:\\MinTic\\ProyectoMintic-main\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
+              "projectPath": "C:\\MinTic\\ProyectoMintic-main\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj"
             },
-            "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj": {
-              "projectPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj"
+            "C:\\MinTic\\ProyectoMintic-main\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj": {
+              "projectPath": "C:\\MinTic\\ProyectoMintic-main\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj"
             }
           }
         }

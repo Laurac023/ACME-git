@@ -22,3 +22,15 @@ C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstan
 C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.csproj.CopyComplete
 C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.dll
 C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.pdb
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\bin\Debug\netstandard2.1\AcmeNotas.App.Persistencia.deps.json
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\bin\Debug\netstandard2.1\AcmeNotas.App.Persistencia.dll
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\bin\Debug\netstandard2.1\AcmeNotas.App.Persistencia.pdb
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.dll
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.pdb
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.csprojAssemblyReference.cache
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.AssemblyInfoInputs.cache
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.AssemblyInfo.cs
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.csproj.CopyComplete
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.dll
+C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.pdb

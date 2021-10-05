@@ -1,0 +1,59 @@
+@page
+@model AcmeNotas.App.Presentacion.Pages.CrudAdministrador.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Administrador</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Administrador.Nombres" class="control-label"></label>
+                <input asp-for="Administrador.Nombres" class="form-control" />
+                <span asp-validation-for="Administrador.Nombres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Administrador.Apellidos" class="control-label"></label>
+                <input asp-for="Administrador.Apellidos" class="form-control" />
+                <span asp-validation-for="Administrador.Apellidos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Administrador.Cedula" class="control-label"></label>
+                <input asp-for="Administrador.Cedula" class="form-control" />
+                <span asp-validation-for="Administrador.Cedula" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Administrador.CorreoElectronico" class="control-label"></label>
+                <input asp-for="Administrador.CorreoElectronico" class="form-control" />
+                <span asp-validation-for="Administrador.CorreoElectronico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Administrador.Usuario" class="control-label"></label>
+                <input asp-for="Administrador.Usuario" class="form-control" />
+                <span asp-validation-for="Administrador.Usuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Administrador.Password" class="control-label"></label>
+                <input asp-for="Administrador.Password" class="form-control" />
+                <span asp-validation-for="Administrador.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

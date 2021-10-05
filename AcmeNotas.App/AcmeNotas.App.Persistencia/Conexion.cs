@@ -17,6 +17,7 @@ namespace AcmeNotas.App.Persistencia
     public DbSet<Municipio> Municipios {get;set;}
     public DbSet<Nota> Notas {get; set;}
     public DbSet <Tutor> Tutores {get; set;}
+    public DbSet <Rol> Roles {get; set;}
   protected override void OnConfiguring (DbContextOptionsBuilder optionBuilder)
   {
       if(!optionBuilder.IsConfigured)

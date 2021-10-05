@@ -7,7 +7,7 @@ namespace AcmeNotas.App.Consola
 {
         class Program 
     {
-        private static IRepositorioAdministrador _repoAdministrador = new RepositorioAdministrador(new Persistencia.AppContext());
+        private static IRepositorioAdministrador _repoAdministrador = new RepositorioAdministrador(new Persistencia.Conexion());
 
         static void Main(string[] args)
         {

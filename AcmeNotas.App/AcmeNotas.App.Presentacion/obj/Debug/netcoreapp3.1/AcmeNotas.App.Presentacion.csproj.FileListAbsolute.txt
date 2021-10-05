@@ -190,3 +190,8 @@ C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcore
 C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\staticwebassets\AcmeNotas.App.Presentacion.StaticWebAssets.Manifest.cache
 C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\staticwebassets\AcmeNotas.App.Presentacion.StaticWebAssets.xml
 C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\AcmeNotas.App.Presentacion.genruntimeconfig.cache
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudPersona\Create.cshtml.g.cs
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudPersona\Delete.cshtml.g.cs
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudPersona\Details.cshtml.g.cs
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudPersona\Edit.cshtml.g.cs
+C:\AcmeNotas\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudPersona\Index.cshtml.g.cs

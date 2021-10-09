@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AYg+f1ZH4jfIZnbsEenv/lsMBRh6QssSwjo7zCGHQg38+Pdw3BQVbDFXAzXxZPbkjwY+II9YRm8sngQZS/0B8g==",
+  "dgSpecHash": "Xry1zMiMst7yKFl1UOePZ0ncWFi0oMuvuAukyKLswtSFeTidCmQxArjgQmtWQHOScv26ezN5DzJvN3pl5zzzXQ==",
   "success": true,
-  "projectFilePath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
+  "projectFilePath": "C:\\MinTic\\ProyectoMintic-main\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Juan Pablo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Juan Pablo\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

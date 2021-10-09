@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ltNcjDIx6tBpWZJV6261CM1KLmxY16wAG5WUteqEjSlQaaL0sZstKK8G2Fn2Eyn4fedu/qNUMZyf7dnITUhpEw==",
+  "dgSpecHash": "Hp0in7eDFcwhce0+DAxmTobeTGud4nmB9J+gDNcnk/K2nhwbxXyj2MnnuU8TW/PsyqPZbybR7RuFgL28wdh11Q==",
   "success": true,
-  "projectFilePath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj",
+  "projectFilePath": "C:\\MinTic\\ProyectoMintic-main\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Juan Pablo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Juan Pablo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

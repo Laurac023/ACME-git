@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VhEp3bDb6hVBiK/NsJ6RDhLAh0lkrZ0e4a5ytO9Bhl1HGhxlQ/QEc57UQzowIUUmVyWrh5o2K+O3VPw27XK+UQ==",
+  "dgSpecHash": "Xoy0Gra6HhZ5P7TQfN8X/82Ol7ve2Bya3TOQJQ/OhK3JcbjOJ/4kKOkH5ZcJL97272H/ksDa7chgamnUgRmoCQ==",
   "success": true,
-  "projectFilePath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
+  "projectFilePath": "C:\\MinTic\\ProyectoMintic-main\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

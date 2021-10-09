@@ -1,0 +1,37 @@
+@page
+@model AcmeNotas.App.Presentacion.Pages.CrudGrupoEstudiante.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>GrupoEstudiante</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GrupoEstudiante.IdGrupo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GrupoEstudiante.IdGrupo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GrupoEstudiante.IdEstudiante)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GrupoEstudiante.IdEstudiante)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GrupoEstudiante.CodNotas)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GrupoEstudiante.CodNotas)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.GrupoEstudiante.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

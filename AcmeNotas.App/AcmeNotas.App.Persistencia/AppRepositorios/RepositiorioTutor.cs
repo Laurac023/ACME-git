@@ -43,7 +43,7 @@ namespace AcmeNotas.App.Persistencia
 
         public Tutor UpdateTutor(Tutor tutor)
         {
-         var TutorEncontrado= _appContext.Tutores.FirstOrDefault(p =>p.Id==tutor.IdT);    
+         var TutorEncontrado= _appContext.Tutores.FirstOrDefault(p =>p.Id==tutor.Id);    
          if (TutorEncontrado!=null)
          {
              TutorEncontrado.Cedula=tutor.Cedula;

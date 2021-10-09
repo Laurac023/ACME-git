@@ -42,7 +42,7 @@ namespace AcmeNotas.App.Persistencia
 
         public Formador UpdateFormador(Formador formador)
         {
-         var FormadorEncontrado= _appContext.Formadores.FirstOrDefault(p =>p.Id==formador.IdF );    
+         var FormadorEncontrado= _appContext.Formadores.FirstOrDefault(p =>p.Id==formador.Id );    
          if (FormadorEncontrado!=null)
          {
              FormadorEncontrado.Cedula=formador.Cedula;

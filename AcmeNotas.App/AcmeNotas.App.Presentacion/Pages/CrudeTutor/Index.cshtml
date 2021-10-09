@@ -1,0 +1,102 @@
+@page
+@model AcmeNotas.App.Presentacion.Pages.CrudeTutor.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].CodigoTutor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].Cedula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].Nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].Apellidos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].Celular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].CorreoElectronico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].Departamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].Municipio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].Usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tutor[0].Password)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Tutor) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoTutor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cedula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellidos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Celular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CorreoElectronico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Departamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Municipio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

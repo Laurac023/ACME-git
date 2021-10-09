@@ -43,7 +43,7 @@ namespace AcmeNotas.App.Persistencia
 
         public Estudiante UpdateEstudiante(Estudiante estudiante)
         {
-         var EstudianteEncontrado= _appContext.Estudiantes.FirstOrDefault(p =>p.Id==estudiante.IdE );    
+         var EstudianteEncontrado= _appContext.Estudiantes.FirstOrDefault(p =>p.Id==estudiante.Id );    
          if (EstudianteEncontrado!=null)
          {
              EstudianteEncontrado.Cedula=estudiante.Cedula;

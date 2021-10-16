@@ -38,7 +38,8 @@ namespace AcmeNotas.App.Persistencia
          if (MunicipioEncontrado!=null)
          {
           MunicipioEncontrado.CodMunicipio = municipio.CodMunicipio;   
-          MunicipioEncontrado.IdDepartamento = municipio.IdDepartamento;
+          MunicipioEncontrado.CodDepartamento = municipio.CodDepartamento;
+          MunicipioEncontrado.NombreDepartamento = municipio.NombreDepartamento;
           MunicipioEncontrado.NombreMunicipio = municipio.NombreMunicipio;
            _appContext.SaveChanges();
          }

@@ -25,3 +25,12 @@ C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\D
 C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.csproj.CoreCompileInputs.cache
 C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.dll
 C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.pdb
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.deps.json
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.dll
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.pdb
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.csprojAssemblyReference.cache
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.AssemblyInfoInputs.cache
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.AssemblyInfo.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.csproj.CoreCompileInputs.cache
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.dll
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.pdb

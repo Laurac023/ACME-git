@@ -38,13 +38,13 @@
                 @Html.DisplayNameFor(model => model.Persona[0].Departamento)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Persona[0].Municipio)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Persona[0].Usuario)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Persona[0].Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona[0].PrimerRegistro)
             </th>
             <th></th>
         </tr>
@@ -77,13 +77,13 @@
                 @Html.DisplayFor(modelItem => item.Departamento)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Municipio)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Usuario)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrimerRegistro)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |

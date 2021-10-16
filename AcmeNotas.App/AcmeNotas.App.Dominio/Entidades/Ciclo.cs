@@ -3,10 +3,10 @@ namespace AcmeNotas.App.Dominio
 {
      public enum Ciclo
     {
-        C1,
-        C2,
-        C3,
-        C4
+        Ciclo1,
+        Ciclo2,
+        Ciclo3,
+        Ciclo4
 
     }
 

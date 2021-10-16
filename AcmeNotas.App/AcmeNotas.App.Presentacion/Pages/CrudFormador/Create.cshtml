@@ -14,11 +14,6 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Formador.IdF" class="control-label"></label>
-                <input asp-for="Formador.IdF" class="form-control" />
-                <span asp-validation-for="Formador.IdF" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="Formador.CodigoFormador" class="control-label"></label>
                 <input asp-for="Formador.CodigoFormador" class="form-control" />
                 <span asp-validation-for="Formador.CodigoFormador" class="text-danger"></span>
@@ -64,11 +59,6 @@
                 <span asp-validation-for="Formador.Departamento" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Formador.Municipio" class="control-label"></label>
-                <input asp-for="Formador.Municipio" class="form-control" />
-                <span asp-validation-for="Formador.Municipio" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="Formador.Usuario" class="control-label"></label>
                 <input asp-for="Formador.Usuario" class="form-control" />
                 <span asp-validation-for="Formador.Usuario" class="text-danger"></span>
@@ -77,6 +67,11 @@
                 <label asp-for="Formador.Password" class="control-label"></label>
                 <input asp-for="Formador.Password" class="form-control" />
                 <span asp-validation-for="Formador.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Formador.PrimerRegistro" /> @Html.DisplayNameFor(model => model.Formador.PrimerRegistro)
+                </label>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

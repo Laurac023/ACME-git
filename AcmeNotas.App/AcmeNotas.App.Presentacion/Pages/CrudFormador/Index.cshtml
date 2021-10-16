@@ -14,9 +14,6 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Formador[0].IdF)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Formador[0].CodigoFormador)
             </th>
             <th>
@@ -44,13 +41,13 @@
                 @Html.DisplayNameFor(model => model.Formador[0].Departamento)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Formador[0].Municipio)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Formador[0].Usuario)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Formador[0].Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Formador[0].PrimerRegistro)
             </th>
             <th></th>
         </tr>
@@ -58,9 +55,6 @@
     <tbody>
 @foreach (var item in Model.Formador) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdF)
-            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CodigoFormador)
             </td>
@@ -89,13 +83,13 @@
                 @Html.DisplayFor(modelItem => item.Departamento)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Municipio)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Usuario)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrimerRegistro)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |

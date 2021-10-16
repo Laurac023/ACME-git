@@ -2,7 +2,7 @@ using System;
 
 namespace AcmeNotas.App.Dominio
 {
-    public class  Persona
+    public class Persona
     {
         public int Id { get; set; }
         public String Cedula { get; set; }
@@ -13,11 +13,11 @@ namespace AcmeNotas.App.Dominio
         public String Celular { get; set; }
         public String CorreoElectronico { get; set; }
         public String Departamento { get; set; }
-        public String Municipio { get; set; }
+        public Municipio Municipio { get; set; }
         public Rol RolPersona {get; set;}
         public String Usuario {get;set;}
         public String Password {get;set;}
-
-        //public String Horario {get; set;}
+        public Boolean PrimerRegistro {get;set;}
+     
     }
 }

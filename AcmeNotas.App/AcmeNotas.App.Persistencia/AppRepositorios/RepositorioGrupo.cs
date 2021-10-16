@@ -40,11 +40,11 @@ namespace AcmeNotas.App.Persistencia
          if (GrupoEncontrado!=null) 
          {
              
-             GrupoEncontrado.Ciclos =grupo.Ciclos;
-             GrupoEncontrado.CodigoFormador = grupo.CodigoFormador;
+             GrupoEncontrado.Ciclo = grupo.Ciclo;
+             GrupoEncontrado.Formador = grupo.Formador;
              GrupoEncontrado.CodigoGrupo = grupo.CodigoGrupo;
-             GrupoEncontrado.CodigoTutor = grupo.CodigoTutor;
-             GrupoEncontrado.CodHorario = grupo.CodHorario;
+             GrupoEncontrado.Tutor = grupo.Tutor;
+             GrupoEncontrado.Horario = grupo.Horario;
            _appContext.SaveChanges();
        
          }

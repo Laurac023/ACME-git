@@ -34,3 +34,15 @@ C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\
 C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.csproj.CopyComplete
 C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.dll
 C:\MinTic\ProyectoMintic-main\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.pdb
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\bin\Debug\netstandard2.1\AcmeNotas.App.Persistencia.deps.json
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\bin\Debug\netstandard2.1\AcmeNotas.App.Persistencia.dll
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\bin\Debug\netstandard2.1\AcmeNotas.App.Persistencia.pdb
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.dll
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.pdb
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.csprojAssemblyReference.cache
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.AssemblyInfoInputs.cache
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.AssemblyInfo.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.csproj.CopyComplete
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.dll
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Persistencia\obj\Debug\netstandard2.1\AcmeNotas.App.Persistencia.pdb

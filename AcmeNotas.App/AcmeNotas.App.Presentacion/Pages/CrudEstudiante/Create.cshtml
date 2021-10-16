@@ -14,16 +14,6 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Estudiante.IdE" class="control-label"></label>
-                <input asp-for="Estudiante.IdE" class="form-control" />
-                <span asp-validation-for="Estudiante.IdE" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Estudiante.CodigoEstudiante" class="control-label"></label>
-                <input asp-for="Estudiante.CodigoEstudiante" class="form-control" />
-                <span asp-validation-for="Estudiante.CodigoEstudiante" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="Estudiante.Cedula" class="control-label"></label>
                 <input asp-for="Estudiante.Cedula" class="form-control" />
                 <span asp-validation-for="Estudiante.Cedula" class="text-danger"></span>
@@ -64,11 +54,6 @@
                 <span asp-validation-for="Estudiante.Departamento" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Estudiante.Municipio" class="control-label"></label>
-                <input asp-for="Estudiante.Municipio" class="form-control" />
-                <span asp-validation-for="Estudiante.Municipio" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="Estudiante.Usuario" class="control-label"></label>
                 <input asp-for="Estudiante.Usuario" class="form-control" />
                 <span asp-validation-for="Estudiante.Usuario" class="text-danger"></span>
@@ -77,6 +62,11 @@
                 <label asp-for="Estudiante.Password" class="control-label"></label>
                 <input asp-for="Estudiante.Password" class="form-control" />
                 <span asp-validation-for="Estudiante.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Estudiante.PrimerRegistro" /> @Html.DisplayNameFor(model => model.Estudiante.PrimerRegistro)
+                </label>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

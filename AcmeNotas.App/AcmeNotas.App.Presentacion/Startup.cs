@@ -26,8 +26,8 @@ namespace AcmeNotas.App.Presentacion
         {
             services.AddRazorPages();
             services.AddDbContext<Conexion>();
-           // services.AddSingleton();
-
+            services.AddHttpContextAccessor();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,11 +45,14 @@ namespace AcmeNotas.App.Presentacion
             }
 
             app.UseHttpsRedirection();
+			
             app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {

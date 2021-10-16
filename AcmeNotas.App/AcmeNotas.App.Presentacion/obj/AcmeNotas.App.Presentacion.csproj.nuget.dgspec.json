@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.presentacion\\AcmeNotas.App.Presentacion.csproj": {}
+    "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj": {}
   },
   "projects": {
     "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.presentacion\\AcmeNotas.App.Presentacion.csproj": {
+    "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.presentacion\\AcmeNotas.App.Presentacion.csproj",
+        "projectUniqueName": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
         "projectName": "AcmeNotas.App.Presentacion",
-        "projectPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.presentacion\\AcmeNotas.App.Presentacion.csproj",
+        "projectPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
         "packagesPath": "C:\\Users\\JULIO\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.presentacion\\obj\\",
+        "outputPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JULIO\\AppData\\Roaming\\NuGet\\NuGet.Config"

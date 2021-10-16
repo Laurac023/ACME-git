@@ -17,7 +17,7 @@ namespace AcmeNotas.App.Dominio
         public Rol RolPersona {get; set;}
         public String Usuario {get;set;}
         public String Password {get;set;}
-        public Boolean PrimerRegistro {get;set;}
+        public bool PrimerRegistro {get;set;}
      
     }
 }

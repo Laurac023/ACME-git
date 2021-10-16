@@ -638,3 +638,15 @@ C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3
 C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudEstudiante\Details.cshtml.g.cs
 C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudEstudiante\Edit.cshtml.g.cs
 C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudEstudiante\Index.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudTutor\Create.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudTutor\Delete.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudTutor\Details.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudTutor\Edit.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudTutor\Index.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudHorario\Create.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudHorario\Delete.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudHorario\Details.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudHorario\Edit.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudHorario\Index.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Login\CambiarPasword.cshtml.g.cs
+C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Login\CerrarSesion.cshtml.g.cs

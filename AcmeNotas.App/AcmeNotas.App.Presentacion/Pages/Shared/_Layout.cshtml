@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,40 +8,69 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">AcmeNotas.App.Presentacion</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" asp-area="" asp-page="/Login/Login">AcmeNotas.App.Presentacion</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-<<<<<<< HEAD
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/CrudPersona/Index">Persona</a>
-                        </li>
-=======
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/CrudPersona/Index">Persona</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/CrudAdministrador/Index">Administrador</a>
-                        </li>
->>>>>>> 32daabfd6a777da8092845300287e5726c5d28d4
+                        @using Microsoft.AspNetCore.Http
+
+                        @inject IHttpContextAccessor HttpContextAccessor
+                        @if (@HttpContextAccessor.HttpContext.Session.GetString("UsuarioAutenticado") != null &&
+                        @HttpContextAccessor.HttpContext.Session.GetString("UsuarioAutenticado").Equals("Formador"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudNota/Index">Nota</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudGrupo/Index">Grupos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Login/CerrarSesion">Cerrar Cesion</a>
+                            </li>
+                        
+                        }else if(@HttpContextAccessor.HttpContext.Session.GetString("UsuarioAutenticado") != null &&
+                            @HttpContextAccessor.HttpContext.Session.GetString("UsuarioAutenticado").Equals("Tutor")){
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudPersona/Index">Formador</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudPersona/Index">Tutor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Login/CerrarSesion">Cerrar Cesion</a>
+                            </li>
+                        }else if(@HttpContextAccessor.HttpContext.Session.GetString("UsuarioAutenticado") != null &&
+                            @HttpContextAccessor.HttpContext.Session.GetString("UsuarioAutenticado").Equals("Administrador")){
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudPersona/Index">Formador</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudPersona/Index">Tutor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudEstudiante/Index">Estudiante</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudGrupo/Index">Grupos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Login/CerrarSesion">Cerrar Cesion</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
         </nav>
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -60,4 +90,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>

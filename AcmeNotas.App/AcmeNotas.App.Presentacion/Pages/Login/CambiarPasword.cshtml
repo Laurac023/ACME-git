@@ -1,0 +1,23 @@
+﻿@page
+@model AcmeNotas.App.Presentacion.Pages.CambiarPaswordModel
+@{
+}
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label class="control-label">Password:</label>
+                <input type="Password" asp-for="Password" class="form-control" ></input>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">Confirme el password:</label>
+                <input type="Password" asp-for="RepeatPassword" class="form-control"></input>
+                <span class="text-danger">@Model.Mensaje</span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Cambiar" class="btn btn-primary"></input>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+@page
+@model AcmeNotas.App.Presentacion.Pages.CrudGrupo.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Grupo[0].CodigoGrupo)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Grupo[0].Formador)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Grupo[0].Tutor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grupo[0].Ciclo)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Grupo[0].Horario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Grupo) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoGrupo)
+            </td>
+                    <th>
+                @Html.DisplayNameFor(model => model.Grupo[0].Formador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grupo[0].Tutor)
+            </th>
+    
+            <td>
+                @Html.DisplayFor(modelItem => item.Ciclo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Horario)
+            </td>
+            
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.GrupoId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.GrupoId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.GrupoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

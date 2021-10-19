@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {}
+    "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
+    "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
+        "projectUniqueName": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
         "projectName": "AcmeNotas.App.Dominio",
-        "projectPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Juan Pablo\\.nuget\\packages\\",
-        "outputPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\obj\\",
+        "projectPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Juan Pablo Ramirez\\.nuget\\packages\\",
+        "outputPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Juan Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Juan Pablo Ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"

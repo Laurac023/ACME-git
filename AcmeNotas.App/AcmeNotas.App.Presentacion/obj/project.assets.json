@@ -8600,19 +8600,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Juan Pablo\\.nuget\\packages\\": {}
+    "C:\\Users\\Juan Pablo Ramirez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
+      "projectUniqueName": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
       "projectName": "AcmeNotas.App.Presentacion",
-      "projectPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
-      "packagesPath": "C:\\Users\\Juan Pablo\\.nuget\\packages\\",
-      "outputPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\obj\\",
+      "projectPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\AcmeNotas.App.Presentacion.csproj",
+      "packagesPath": "C:\\Users\\Juan Pablo Ramirez\\.nuget\\packages\\",
+      "outputPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Juan Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Juan Pablo Ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8623,11 +8623,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
-              "projectPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj"
+            "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
+              "projectPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj"
             },
-            "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj": {
-              "projectPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj"
+            "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj": {
+              "projectPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj"
             }
           }
         }

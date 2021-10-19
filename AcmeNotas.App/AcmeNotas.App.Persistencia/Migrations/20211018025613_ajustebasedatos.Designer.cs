@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AcmeNotas.App.Persistencia.Migrations
 {
     [DbContext(typeof(Conexion))]
-    [Migration("20211016233716_Inicial")]
-    partial class Inicial
+    [Migration("20211018025613_ajustebasedatos")]
+    partial class ajustebasedatos
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,9 +21,27 @@ namespace AcmeNotas.App.Persistencia.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("AcmeNotas.App.Dominio.Grupo", b =>
+            modelBuilder.Entity("AcmeNotas.App.Dominio.Departamento", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("CodigoDepartamento")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NombreDepartamento")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Departamentos");
+                });
+
+            modelBuilder.Entity("AcmeNotas.App.Dominio.Grupo", b =>
+                {
+                    b.Property<int>("GrupoId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
@@ -43,7 +61,7 @@ namespace AcmeNotas.App.Persistencia.Migrations
                     b.Property<int?>("TutorId")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("GrupoId");
 
                     b.HasIndex("FormadorId");
 
@@ -54,12 +72,36 @@ namespace AcmeNotas.App.Persistencia.Migrations
                     b.ToTable("Grupos");
                 });
 
+            modelBuilder.Entity("AcmeNotas.App.Dominio.GrupoEstudiante", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("CodNotas")
+                        .HasColumnType("int");
+
+                    b.Property<string>("IdEstudiante")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("IdGrupo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GrupoEstudiantes");
+                });
+
             modelBuilder.Entity("AcmeNotas.App.Dominio.Horario", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
+
+                    b.Property<string>("CodigoHorario")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Dia1")
                         .HasColumnType("nvarchar(max)");
@@ -100,19 +142,18 @@ namespace AcmeNotas.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<string>("CodDepartamento")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("CodMunicipio")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("NombreDepartamento")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("DepartamentoId")
+                        .HasColumnType("int");
 
                     b.Property<string>("NombreMunicipio")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("DepartamentoId");
 
                     b.ToTable("Municipios");
                 });
@@ -123,9 +164,6 @@ namespace AcmeNotas.App.Persistencia.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
-
-                    b.Property<int?>("EstudianteId")
-                        .HasColumnType("int");
 
                     b.Property<double>("Nota1")
                         .HasColumnType("float");
@@ -145,9 +183,12 @@ namespace AcmeNotas.App.Persistencia.Migrations
                     b.Property<double>("NotaDefinitiva")
                         .HasColumnType("float");
 
+                    b.Property<int?>("estudianteId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("EstudianteId");
+                    b.HasIndex("estudianteId");
 
                     b.ToTable("Notas");
                 });
@@ -171,9 +212,6 @@ namespace AcmeNotas.App.Persistencia.Migrations
                     b.Property<string>("CorreoElectronico")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Departamento")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Direccion")
                         .HasColumnType("nvarchar(max)");
 
@@ -181,7 +219,7 @@ namespace AcmeNotas.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("MunicipioId")
+                    b.Property<int?>("MunicipioPersonaId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombres")
@@ -204,7 +242,7 @@ namespace AcmeNotas.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("MunicipioId");
+                    b.HasIndex("MunicipioPersonaId");
 
                     b.HasIndex("RolPersonaId");
 
@@ -244,6 +282,9 @@ namespace AcmeNotas.App.Persistencia.Migrations
             modelBuilder.Entity("AcmeNotas.App.Dominio.Estudiante", b =>
                 {
                     b.HasBaseType("AcmeNotas.App.Dominio.Persona");
+
+                    b.Property<string>("CodigoEstudiante")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("GrupoId")
                         .HasColumnType("int");
@@ -294,26 +335,35 @@ namespace AcmeNotas.App.Persistencia.Migrations
                     b.Navigation("Tutor");
                 });
 
+            modelBuilder.Entity("AcmeNotas.App.Dominio.Municipio", b =>
+                {
+                    b.HasOne("AcmeNotas.App.Dominio.Departamento", "Departamento")
+                        .WithMany()
+                        .HasForeignKey("DepartamentoId");
+
+                    b.Navigation("Departamento");
+                });
+
             modelBuilder.Entity("AcmeNotas.App.Dominio.Nota", b =>
                 {
-                    b.HasOne("AcmeNotas.App.Dominio.Estudiante", "Estudiante")
+                    b.HasOne("AcmeNotas.App.Dominio.Estudiante", "estudiante")
                         .WithMany()
-                        .HasForeignKey("EstudianteId");
+                        .HasForeignKey("estudianteId");
 
-                    b.Navigation("Estudiante");
+                    b.Navigation("estudiante");
                 });
 
             modelBuilder.Entity("AcmeNotas.App.Dominio.Persona", b =>
                 {
-                    b.HasOne("AcmeNotas.App.Dominio.Municipio", "Municipio")
+                    b.HasOne("AcmeNotas.App.Dominio.Municipio", "MunicipioPersona")
                         .WithMany()
-                        .HasForeignKey("MunicipioId");
+                        .HasForeignKey("MunicipioPersonaId");
 
                     b.HasOne("AcmeNotas.App.Dominio.Rol", "RolPersona")
                         .WithMany()
                         .HasForeignKey("RolPersonaId");
 
-                    b.Navigation("Municipio");
+                    b.Navigation("MunicipioPersona");
 
                     b.Navigation("RolPersona");
                 });

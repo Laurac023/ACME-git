@@ -2,16 +2,32 @@
 
 namespace AcmeNotas.App.Persistencia.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "GrupoEstudiantes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    IdGrupo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    IdEstudiante = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CodNotas = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GrupoEstudiantes", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Horarios",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    CodigoHorario = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Dia1 = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     HoraInicio1 = table.Column<int>(type: "int", nullable: false),
                     HoraFinal1 = table.Column<int>(type: "int", nullable: false),
@@ -70,8 +86,7 @@ namespace AcmeNotas.App.Persistencia.Migrations
                     Telefono = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Celular = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CorreoElectronico = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Departamento = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    MunicipioId = table.Column<int>(type: "int", nullable: true),
+                    MunicipioPersonaId = table.Column<int>(type: "int", nullable: true),
                     RolPersonaId = table.Column<int>(type: "int", nullable: true),
                     Usuario = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -79,6 +94,7 @@ namespace AcmeNotas.App.Persistencia.Migrations
                     Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CodigoAdm = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     GrupoId = table.Column<int>(type: "int", nullable: true),
+                    CodigoEstudiante = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CodigoFormador = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CodigoTutor = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
@@ -86,8 +102,8 @@ namespace AcmeNotas.App.Persistencia.Migrations
                 {
                     table.PrimaryKey("PK_Personas", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Personas_Municipios_MunicipioId",
-                        column: x => x.MunicipioId,
+                        name: "FK_Personas_Municipios_MunicipioPersonaId",
+                        column: x => x.MunicipioPersonaId,
                         principalTable: "Municipios",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -103,7 +119,7 @@ namespace AcmeNotas.App.Persistencia.Migrations
                 name: "Grupos",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    GrupoId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FormadorId = table.Column<int>(type: "int", nullable: true),
                     TutorId = table.Column<int>(type: "int", nullable: true),
@@ -113,7 +129,7 @@ namespace AcmeNotas.App.Persistencia.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Grupos", x => x.Id);
+                    table.PrimaryKey("PK_Grupos", x => x.GrupoId);
                     table.ForeignKey(
                         name: "FK_Grupos_Horarios_HorarioId",
                         column: x => x.HorarioId,
@@ -140,7 +156,7 @@ namespace AcmeNotas.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    EstudianteId = table.Column<int>(type: "int", nullable: true),
+                    estudianteId = table.Column<int>(type: "int", nullable: true),
                     Nota1 = table.Column<double>(type: "float", nullable: false),
                     Nota2 = table.Column<double>(type: "float", nullable: false),
                     Nota3 = table.Column<double>(type: "float", nullable: false),
@@ -152,8 +168,8 @@ namespace AcmeNotas.App.Persistencia.Migrations
                 {
                     table.PrimaryKey("PK_Notas", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Notas_Personas_EstudianteId",
-                        column: x => x.EstudianteId,
+                        name: "FK_Notas_Personas_estudianteId",
+                        column: x => x.estudianteId,
                         principalTable: "Personas",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -175,9 +191,9 @@ namespace AcmeNotas.App.Persistencia.Migrations
                 column: "TutorId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Notas_EstudianteId",
+                name: "IX_Notas_estudianteId",
                 table: "Notas",
-                column: "EstudianteId");
+                column: "estudianteId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Personas_GrupoId",
@@ -185,9 +201,9 @@ namespace AcmeNotas.App.Persistencia.Migrations
                 column: "GrupoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Personas_MunicipioId",
+                name: "IX_Personas_MunicipioPersonaId",
                 table: "Personas",
-                column: "MunicipioId");
+                column: "MunicipioPersonaId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Personas_RolPersonaId",
@@ -199,7 +215,7 @@ namespace AcmeNotas.App.Persistencia.Migrations
                 table: "Personas",
                 column: "GrupoId",
                 principalTable: "Grupos",
-                principalColumn: "Id",
+                principalColumn: "GrupoId",
                 onDelete: ReferentialAction.Restrict);
         }
 
@@ -216,6 +232,9 @@ namespace AcmeNotas.App.Persistencia.Migrations
             migrationBuilder.DropForeignKey(
                 name: "FK_Grupos_Personas_TutorId",
                 table: "Grupos");
+
+            migrationBuilder.DropTable(
+                name: "GrupoEstudiantes");
 
             migrationBuilder.DropTable(
                 name: "Notas");

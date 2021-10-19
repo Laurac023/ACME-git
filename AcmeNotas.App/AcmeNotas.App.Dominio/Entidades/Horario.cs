@@ -3,7 +3,8 @@ namespace AcmeNotas.App.Dominio
 {
     public class Horario
     {
-        public int Id {get;set;}
+       public int Id {get;set;}
+        public string CodigoHorario {get;set;}
         public String Dia1 {get;set;}
         public int HoraInicio1 {get;set;}
         public int HoraFinal1 {get;set;}

@@ -19,7 +19,7 @@ namespace AcmeNotas.App.Persistencia
        }
       public void DeleteGrupo(int IdGrupo) 
       {
-          var GrupoEncontrado= _appContext.Grupos.FirstOrDefault(p =>p.Id==IdGrupo);
+          var GrupoEncontrado= _appContext.Grupos.FirstOrDefault(p =>p.GrupoId==IdGrupo);
          if (GrupoEncontrado ==null)
          return;
          _appContext.Grupos.Remove(GrupoEncontrado);
@@ -31,18 +31,18 @@ namespace AcmeNotas.App.Persistencia
      }
      public Grupo GetGrupo(int IdGrupo)
      {
-         return _appContext.Grupos.FirstOrDefault(p => p.Id == IdGrupo ) ;
+         return _appContext.Grupos.FirstOrDefault(p => p.GrupoId == IdGrupo) ;
          
      }
      public Grupo UpdateGrupo(Grupo grupo)
      {
-        var GrupoEncontrado= _appContext.Grupos.FirstOrDefault(p =>p.Id==grupo.Id);    
+        var GrupoEncontrado= _appContext.Grupos.FirstOrDefault(p =>p.GrupoId==grupo.GrupoId );    
          if (GrupoEncontrado!=null) 
          {
              
-             GrupoEncontrado.Ciclo = grupo.Ciclo;
+             GrupoEncontrado.Ciclo =grupo.Ciclo;
              GrupoEncontrado.Formador = grupo.Formador;
-             GrupoEncontrado.CodigoGrupo = grupo.CodigoGrupo;
+             GrupoEncontrado.GrupoId = grupo.GrupoId;
              GrupoEncontrado.Tutor = grupo.Tutor;
              GrupoEncontrado.Horario = grupo.Horario;
            _appContext.SaveChanges();

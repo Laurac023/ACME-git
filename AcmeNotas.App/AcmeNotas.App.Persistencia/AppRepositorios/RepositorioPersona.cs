@@ -12,7 +12,7 @@ namespace AcmeNotas.App.Persistencia
              _appContext = appContext;
          }
 
-        public Persona guardarPerna (Persona persona)
+        public Persona guardarPersona (Persona persona)
          {
              var PersonaAdicionada=  _appContext.Personass.Add(persona);
             _appContext.SaveChanges();

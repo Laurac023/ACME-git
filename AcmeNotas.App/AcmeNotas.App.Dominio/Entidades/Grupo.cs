@@ -4,7 +4,7 @@ namespace AcmeNotas.App.Dominio
 {
     public class Grupo
     {
-        public int Id{get; set;}
+        public int GrupoId{get; set;}
 
         public Persona Formador{get; set;}
 

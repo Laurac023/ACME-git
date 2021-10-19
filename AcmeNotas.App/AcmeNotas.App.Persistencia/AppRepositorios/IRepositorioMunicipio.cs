@@ -9,5 +9,6 @@ public interface IRepositorioMunicipio
        Municipio  UpdateMunicipio(Municipio municipio);
        void DeleteMunicipio (int IdMunicipio);
        Municipio  GetMunicipio(int  IdMunicipio); 
-  }
+       IEnumerable<Municipio>  ListaMunicipiosdeunDepto(string CodigoDepartamento);
+         }
 }

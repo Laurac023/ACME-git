@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/X25h79eEj3zt9ZQbM6SO/6iXRJ+nI+RThRcW/mo3SwjeBMv1goa3Yx3Nm1ylTGL23jfF9D+AsBtr1WzEObQ6w==",
+  "dgSpecHash": "9w9RGDxb6X4SC2TjKZuPAoURXEe7fsVJQBwq5WzVyWdY8Q7EW27c/QtK3wNHP9BfP908BtDPZzag7ImdmONvEg==",
   "success": true,
-  "projectFilePath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
+  "projectFilePath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

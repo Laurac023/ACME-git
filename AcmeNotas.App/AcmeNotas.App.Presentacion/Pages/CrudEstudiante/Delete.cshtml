@@ -13,6 +13,12 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Estudiante.CodigoEstudiante)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Estudiante.CodigoEstudiante)
+        </dd>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Estudiante.Cedula)
         </dt>
         <dd class="col-sm-10">
@@ -55,11 +61,12 @@
             @Html.DisplayFor(model => model.Estudiante.CorreoElectronico)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Estudiante.Departamento)
+            @Html.DisplayNameFor(model => model.Estudiante.MunicipioPersona)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Estudiante.Departamento)
+            @Html.DisplayFor(model => model.Estudiante.MunicipioPersona)
         </dd>
+ 
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Estudiante.Usuario)
         </dt>

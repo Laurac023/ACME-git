@@ -30,11 +30,12 @@ namespace AcmeNotas.App.Presentacion.Pages.CrudFormador
             }
 
             Formador = await _context.Formadores.FirstOrDefaultAsync(m => m.Id == id);
-
+            
             if (Formador == null)
             {
                 return NotFound();
             }
+            //Municipio municipio = _context.Municipios.FirstOrDefault(p => p.Id == Formador.MunicipioPersona.Id);
             return Page();
         }
 

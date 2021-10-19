@@ -13,6 +13,11 @@ namespace AcmeNotas.App.Presentacion.Pages.CrudEstudiante
     public class CreateModel : PageModel
     {
         private readonly AcmeNotas.App.Persistencia.Conexion _context;
+        public SelectList listaMunicipios {get; set;}
+        [BindProperty(SupportsGet =true)]
+        public int MunicipioID {get; set;}
+        [BindProperty]
+        public String Mensaje {get; set;}
 
         public CreateModel(AcmeNotas.App.Persistencia.Conexion context)
         {
@@ -21,6 +26,9 @@ namespace AcmeNotas.App.Presentacion.Pages.CrudEstudiante
 
         public IActionResult OnGet()
         {
+        var listaMunicipiosBD = _context.Municipios.ToList();
+            listaMunicipios = new SelectList(listaMunicipiosBD, nameof(Municipio.Id), nameof(Municipio.NombreMunicipio));//, new {onchange = @"Model.ChangeValue();"});
+
             return Page();
         }
 
@@ -35,6 +43,13 @@ namespace AcmeNotas.App.Presentacion.Pages.CrudEstudiante
             {
                 return Page();
             }
+            Municipio municipio = _context.Municipios.FirstOrDefault(p => p.Id == MunicipioID);
+            Rol RolDB = _context.Roles.FirstOrDefault(r =>  r.NombreRol ==  "Estudiante");
+            Estudiante.MunicipioPersona =municipio;
+            Estudiante.RolPersona = RolDB;
+            Estudiante.Password = Estudiante.Cedula;
+            Estudiante.PrimerRegistro = true;
+            Estudiante.CodigoEstudiante= "E-"+Estudiante.CodigoEstudiante;
 
             _context.Estudiantes.Add(Estudiante);
             await _context.SaveChangesAsync();

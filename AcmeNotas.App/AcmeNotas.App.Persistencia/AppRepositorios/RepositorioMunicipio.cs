@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using AcmeNotas.App.Dominio;
 using System.Linq;
+
+
+
 namespace AcmeNotas.App.Persistencia
 {
    public class RepositorioMunicipio : IRepositorioMunicipio
@@ -36,15 +39,17 @@ namespace AcmeNotas.App.Persistencia
         {
         var MunicipioEncontrado= _appContext.Municipios.FirstOrDefault(p =>p.Id==municipio.Id);    
          if (MunicipioEncontrado!=null)
-         {
+         {  
+          MunicipioEncontrado.Departamento = municipio.Departamento;
           MunicipioEncontrado.CodMunicipio = municipio.CodMunicipio;   
-          MunicipioEncontrado.CodDepartamento = municipio.CodDepartamento;
-          MunicipioEncontrado.NombreDepartamento = municipio.NombreDepartamento;
           MunicipioEncontrado.NombreMunicipio = municipio.NombreMunicipio;
            _appContext.SaveChanges();
          }
          return MunicipioEncontrado;
        }
- 
+       public IEnumerable<Municipio> ListaMunicipiosdeunDepto(string CodigoDepartamento)
+       {
+           return _appContext.Municipios.Where(p =>p.Departamento.CodigoDepartamento==CodigoDepartamento).ToList();
+       }
    }
 }

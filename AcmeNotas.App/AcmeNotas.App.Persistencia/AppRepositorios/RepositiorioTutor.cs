@@ -53,10 +53,11 @@ namespace AcmeNotas.App.Persistencia
              TutorEncontrado.Telefono=tutor.Telefono;
              TutorEncontrado.Celular=tutor.Celular;
              TutorEncontrado.CorreoElectronico=tutor.CorreoElectronico;
-             TutorEncontrado.Departamento = tutor.Departamento;
-             TutorEncontrado.Municipio= tutor.Municipio;
+            
+             TutorEncontrado.MunicipioPersona= tutor.MunicipioPersona;
              TutorEncontrado.Usuario=tutor.Usuario;
              TutorEncontrado.Password=tutor.Password;
+             TutorEncontrado.PrimerRegistro=tutor.PrimerRegistro;
              
 
              _appContext.SaveChanges();

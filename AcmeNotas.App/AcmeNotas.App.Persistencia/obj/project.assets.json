@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JULIO\\.nuget\\packages\\": {}
+    "C:\\Users\\Juan Pablo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj",
       "projectName": "AcmeNotas.App.Persistencia",
-      "projectPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\JULIO\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\obj\\",
+      "projectPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Juan Pablo\\.nuget\\packages\\",
+      "outputPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JULIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Juan Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
-              "projectPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj"
+            "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
+              "projectPath": "C:\\AcmeNotas\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj"
             }
           }
         }
@@ -7337,7 +7337,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -45,13 +45,18 @@ namespace AcmeNotas.App.Persistencia
          var AdministradorEncontrado= _appContext.Administradores.FirstOrDefault(p =>p.Id==administrador.Id);    
          if (AdministradorEncontrado!=null)
          {
-             AdministradorEncontrado.Nombres= administrador.Nombres;
-             AdministradorEncontrado.Apellidos= administrador.Apellidos;
              AdministradorEncontrado.Cedula=administrador.Cedula;
+             AdministradorEncontrado.Nombres = administrador.Nombres;
+             AdministradorEncontrado.Apellidos= administrador.Apellidos;
+             AdministradorEncontrado.Direccion=administrador.Direccion;
+             AdministradorEncontrado.Telefono=administrador.Telefono;
+             AdministradorEncontrado.Celular=administrador.Celular;
              AdministradorEncontrado.CorreoElectronico=administrador.CorreoElectronico;
+             AdministradorEncontrado.MunicipioPersona = administrador.MunicipioPersona;
+             AdministradorEncontrado.RolPersona= administrador.RolPersona;
              AdministradorEncontrado.Usuario=administrador.Usuario;
              AdministradorEncontrado.Password=administrador.Password;
-
+             AdministradorEncontrado.PrimerRegistro=administrador.PrimerRegistro;
              _appContext.SaveChanges();
           }
            return AdministradorEncontrado;

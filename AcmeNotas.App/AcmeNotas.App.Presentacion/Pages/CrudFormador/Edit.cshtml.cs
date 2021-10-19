@@ -14,12 +14,12 @@ namespace AcmeNotas.App.Presentacion.Pages.CrudFormador
     public class EditModel : PageModel
     {
         private readonly AcmeNotas.App.Persistencia.Conexion _context;
-
+ 
         public EditModel(AcmeNotas.App.Persistencia.Conexion context)
         {
             _context = context;
         }
-
+ 
         [BindProperty]
         public Formador Formador { get; set; }
 
@@ -29,7 +29,6 @@ namespace AcmeNotas.App.Presentacion.Pages.CrudFormador
             {
                 return NotFound();
             }
-
             Formador = await _context.Formadores.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Formador == null)

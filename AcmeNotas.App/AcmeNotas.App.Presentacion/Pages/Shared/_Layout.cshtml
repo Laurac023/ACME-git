@@ -40,10 +40,10 @@
                             @HttpContextAccessor.HttpContext.Session.GetString("UsuarioAutenticado").Equals("Tutor")){
 
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudPersona/Index">Formador</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudFormador/Index">Formador</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudPersona/Index">Tutor</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudTutor/Index">Tutor</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-page="/Login/CerrarSesion">Cerrar Cesion</a>
@@ -51,10 +51,10 @@
                         }else if(@HttpContextAccessor.HttpContext.Session.GetString("UsuarioAutenticado") != null &&
                             @HttpContextAccessor.HttpContext.Session.GetString("UsuarioAutenticado").Equals("Administrador")){
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudPersona/Index">Formador</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudFormador/Index">Formador</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudPersona/Index">Tutor</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/CrudTutor/Index">Tutor</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-page="/CrudEstudiante/Index">Estudiante</a>

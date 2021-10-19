@@ -52,10 +52,10 @@ namespace AcmeNotas.App.Persistencia
              FormadorEncontrado.Telefono=formador.Telefono;
              FormadorEncontrado.Celular=formador.Celular;
              FormadorEncontrado.CorreoElectronico=formador.CorreoElectronico;
-             FormadorEncontrado.Departamento = formador.Departamento;
-             FormadorEncontrado.Municipio= formador.Municipio;
+             FormadorEncontrado.MunicipioPersona = formador.MunicipioPersona;
              FormadorEncontrado.Usuario=formador.Usuario;
              FormadorEncontrado.Password=formador.Password;
+             FormadorEncontrado.PrimerRegistro= formador.PrimerRegistro;
              
              _appContext.SaveChanges();
           }

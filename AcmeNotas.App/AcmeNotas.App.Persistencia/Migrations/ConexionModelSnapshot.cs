@@ -19,6 +19,24 @@ namespace AcmeNotas.App.Persistencia.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
+            modelBuilder.Entity("AcmeNotas.App.Dominio.Departamento", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("CodigoDepartamento")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NombreDepartamento")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Departamentos");
+                });
+
             modelBuilder.Entity("AcmeNotas.App.Dominio.Grupo", b =>
                 {
                     b.Property<int>("Id")
@@ -98,19 +116,18 @@ namespace AcmeNotas.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<string>("CodDepartamento")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("CodMunicipio")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("NombreDepartamento")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("DepartamentoId")
+                        .HasColumnType("int");
 
                     b.Property<string>("NombreMunicipio")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("DepartamentoId");
 
                     b.ToTable("Municipios");
                 });
@@ -290,6 +307,15 @@ namespace AcmeNotas.App.Persistencia.Migrations
                     b.Navigation("Horario");
 
                     b.Navigation("Tutor");
+                });
+
+            modelBuilder.Entity("AcmeNotas.App.Dominio.Municipio", b =>
+                {
+                    b.HasOne("AcmeNotas.App.Dominio.Departamento", "Departamento")
+                        .WithMany()
+                        .HasForeignKey("DepartamentoId");
+
+                    b.Navigation("Departamento");
                 });
 
             modelBuilder.Entity("AcmeNotas.App.Dominio.Nota", b =>

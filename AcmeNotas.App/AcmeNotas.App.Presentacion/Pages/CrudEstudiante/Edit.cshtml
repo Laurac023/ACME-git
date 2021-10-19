@@ -13,55 +13,61 @@
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Estudiante.CodigoEstudiante" class="control-label"></label>
+                <input asp-for="Estudiante.CodigoEstudiante" class="form-control" readonly />
+                <span asp-validation-for="Estudiante.CodigoEstudiante" class="text-danger"></span>
+            </div>
             <input type="hidden" asp-for="Estudiante.Id" />
             <div class="form-group">
                 <label asp-for="Estudiante.Cedula" class="control-label"></label>
-                <input asp-for="Estudiante.Cedula" class="form-control" />
+                <input asp-for="Estudiante.Cedula" class="form-control" required/>
                 <span asp-validation-for="Estudiante.Cedula" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Estudiante.Nombres" class="control-label"></label>
-                <input asp-for="Estudiante.Nombres" class="form-control" />
+                <input asp-for="Estudiante.Nombres" class="form-control" required/>
                 <span asp-validation-for="Estudiante.Nombres" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Estudiante.Apellidos" class="control-label"></label>
-                <input asp-for="Estudiante.Apellidos" class="form-control" />
+                <input asp-for="Estudiante.Apellidos" class="form-control" required/>
                 <span asp-validation-for="Estudiante.Apellidos" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Estudiante.Direccion" class="control-label"></label>
-                <input asp-for="Estudiante.Direccion" class="form-control" />
+                <input asp-for="Estudiante.Direccion" class="form-control" required/>
                 <span asp-validation-for="Estudiante.Direccion" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Estudiante.Telefono" class="control-label"></label>
-                <input asp-for="Estudiante.Telefono" class="form-control" />
+                <input asp-for="Estudiante.Telefono" class="form-control" required/>
                 <span asp-validation-for="Estudiante.Telefono" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Estudiante.Celular" class="control-label"></label>
-                <input asp-for="Estudiante.Celular" class="form-control" />
+                <input asp-for="Estudiante.Celular" class="form-control" required/>
                 <span asp-validation-for="Estudiante.Celular" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Estudiante.CorreoElectronico" class="control-label"></label>
-                <input asp-for="Estudiante.CorreoElectronico" class="form-control" />
+                <input  type="email" asp-for="Estudiante.CorreoElectronico" class="form-control" required/>
                 <span asp-validation-for="Estudiante.CorreoElectronico" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Estudiante.Departamento" class="control-label"></label>
-                <input asp-for="Estudiante.Departamento" class="form-control" />
-                <span asp-validation-for="Estudiante.Departamento" class="text-danger"></span>
+                <label asp-for="Estudiante.MunicipioPersona" class="control-label"></label>
+                <input asp-for="Estudiante.MunicipioPersona" class="form-control" readonly />
+                <span asp-validation-for="Estudiante.MunicipioPersona
+                " class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Estudiante.Usuario" class="control-label"></label>
-                <input asp-for="Estudiante.Usuario" class="form-control" />
+                <input asp-for="Estudiante.Usuario" class="form-control" readonly/>
                 <span asp-validation-for="Estudiante.Usuario" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Estudiante.Password" class="control-label"></label>
-                <input asp-for="Estudiante.Password" class="form-control" />
+                <input asp-for="Estudiante.Password" class="form-control" readonly />
                 <span asp-validation-for="Estudiante.Password" class="text-danger"></span>
             </div>
             <div class="form-group form-check">

@@ -34,3 +34,12 @@ C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\A
 C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.csproj.CoreCompileInputs.cache
 C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.dll
 C:\GIT55\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.pdb
+C:\MisionTic\Proyecto\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.deps.json
+C:\MisionTic\Proyecto\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.dll
+C:\MisionTic\Proyecto\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\bin\Debug\netstandard2.1\AcmeNotas.App.Dominio.pdb
+C:\MisionTic\Proyecto\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.csprojAssemblyReference.cache
+C:\MisionTic\Proyecto\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.AssemblyInfoInputs.cache
+C:\MisionTic\Proyecto\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.AssemblyInfo.cs
+C:\MisionTic\Proyecto\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.csproj.CoreCompileInputs.cache
+C:\MisionTic\Proyecto\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.dll
+C:\MisionTic\Proyecto\ACME-git\AcmeNotas.App\AcmeNotas.App.Dominio\obj\Debug\netstandard2.1\AcmeNotas.App.Dominio.pdb

@@ -12,8 +12,7 @@ namespace AcmeNotas.App.Dominio
         public String Telefono { get; set; }
         public String Celular { get; set; }
         public String CorreoElectronico { get; set; }
-        public String Departamento { get; set; }
-        public Municipio Municipio { get; set; }
+        public Municipio MunicipioPersona { get; set; }
         public Rol RolPersona {get; set;}
         public String Usuario {get;set;}
         public String Password {get;set;}

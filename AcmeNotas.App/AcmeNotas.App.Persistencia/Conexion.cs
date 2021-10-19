@@ -11,6 +11,7 @@ namespace AcmeNotas.App.Persistencia
     public DbSet<Formador> Formadores {get;set;}
     public DbSet<Grupo> Grupos {get;set;}
     public DbSet<Horario> Horarios {get;set;}
+    public DbSet<Departamento> Departamentos {get;set;}
     public DbSet<Municipio> Municipios {get;set;}
     public DbSet<Nota> Notas {get; set;}
     public DbSet<Tutor> Tutores {get; set;}

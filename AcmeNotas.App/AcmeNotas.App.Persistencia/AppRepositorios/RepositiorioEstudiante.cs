@@ -53,10 +53,11 @@ namespace AcmeNotas.App.Persistencia
              EstudianteEncontrado.Telefono=estudiante.Telefono;
              EstudianteEncontrado.Celular=estudiante.Celular;
              EstudianteEncontrado.CorreoElectronico=estudiante.CorreoElectronico;
-             EstudianteEncontrado.Departamento = estudiante.Departamento;
-             EstudianteEncontrado.Municipio= estudiante.Municipio;
+            
+             EstudianteEncontrado.MunicipioPersona= estudiante.MunicipioPersona;
              EstudianteEncontrado.Usuario=estudiante.Usuario;
              EstudianteEncontrado.Password=estudiante.Password;
+             EstudianteEncontrado.PrimerRegistro= estudiante.PrimerRegistro;
              
              _appContext.SaveChanges();
           }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Consola\\AcmeNotas.App.Consola.csproj": {}
+    "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Consola\\AcmeNotas.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Consola\\AcmeNotas.App.Consola.csproj": {
+    "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Consola\\AcmeNotas.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Consola\\AcmeNotas.App.Consola.csproj",
+        "projectUniqueName": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Consola\\AcmeNotas.App.Consola.csproj",
         "projectName": "AcmeNotas.App.Consola",
-        "projectPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Consola\\AcmeNotas.App.Consola.csproj",
-        "packagesPath": "C:\\Users\\JULIO\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Consola\\obj\\",
+        "projectPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Consola\\AcmeNotas.App.Consola.csproj",
+        "packagesPath": "C:\\Users\\Juan Pablo Ramirez\\.nuget\\packages\\",
+        "outputPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JULIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Juan Pablo Ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -25,11 +25,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
-                "projectPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj"
+              "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
+                "projectPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj"
               },
-              "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj": {
-                "projectPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj"
+              "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj": {
+                "projectPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj"
               }
             }
           }
@@ -65,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
+    "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
+        "projectUniqueName": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
         "projectName": "AcmeNotas.App.Dominio",
-        "projectPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\JULIO\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\obj\\",
+        "projectPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Juan Pablo Ramirez\\.nuget\\packages\\",
+        "outputPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JULIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Juan Pablo Ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -115,21 +115,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj": {
+    "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj",
         "projectName": "AcmeNotas.App.Persistencia",
-        "projectPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\JULIO\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\obj\\",
+        "projectPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\AcmeNotas.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Juan Pablo Ramirez\\.nuget\\packages\\",
+        "outputPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JULIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Juan Pablo Ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -140,8 +140,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
-                "projectPath": "C:\\GIT55\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj"
+              "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj": {
+                "projectPath": "C:\\MisionTic\\Proyecto\\ACME-git\\AcmeNotas.App\\AcmeNotas.App.Dominio\\AcmeNotas.App.Dominio.csproj"
               }
             }
           }
@@ -191,7 +191,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     }
